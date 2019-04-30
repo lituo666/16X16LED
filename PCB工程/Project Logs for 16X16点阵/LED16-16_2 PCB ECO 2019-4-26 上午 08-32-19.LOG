@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=J1 Old Footprint=HDR1X5 New Footprint=HDR1X5
+Change Physical Footprint: Designator=J2 Old Footprint=HDR1X5 New Footprint=HDR1X5
+Change Physical Footprint: Designator=J3 Old Footprint=HDR1X4 New Footprint=HDR1X4
+Change Physical Footprint: Designator=J5 Old Footprint=HDR1X3 New Footprint=HDR1X3
+Change Physical Footprint: Designator=J6 Old Footprint=SIP2-2.54 New Footprint=SIP2-2.54
+Change Physical Footprint: Designator=U1 Old Footprint=SO16-150 New Footprint=SO16-150
+Change Physical Footprint: Designator=U2 Old Footprint=SO16-150 New Footprint=SO16-150
+Change Physical Footprint: Designator=U3 Old Footprint=SO16-150 New Footprint=SO16-150
+Change Physical Footprint: Designator=U4 Old Footprint=SO16-150 New Footprint=SO16-150
+Change Physical Footprint: Designator=U5 Old Footprint=TSSOP-20 New Footprint=TSSOP-20
+Change Physical Footprint: Designator=USB1 Old Footprint=USB_Micro New Footprint=USB_Micro

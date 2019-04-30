@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=P3.0 Pin=J3-3
+Removed Pin From Net: NetName=P3.1 Pin=J3-4
+Change Component Comment : Designator=LED1 Old Comment=1088BS共阳 New Comment=1088BS共阴极
+Change Component Comment : Designator=LED2 Old Comment=1088BS共阳 New Comment=1088BS共阴极
+Change Component Comment : Designator=LED3 Old Comment=1088BS共阳 New Comment=1088BS共阴极
+Change Component Comment : Designator=LED4 Old Comment=1088BS共阳 New Comment=1088BS共阴极
+Added Pin To Net: NetName=P3.1 Pin=J3-3
+Added Pin To Net: NetName=P3.0 Pin=J3-4

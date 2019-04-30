@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LED16-16_2.PcbDoc   2019/4/30  ÉÏÎç 07:52:54
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : LED16-16_2-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : LED16-16_2-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      14mil (0.35mm)                                            Round             133       PTH        21.76inch (552.66mm)
+T2      28mil (0.7mm)                                             Round             2         PTH        0.19inch (4.85mm)
+T3      28mil (0.7mm)                                             Slot              2         PTH        0.61inch (15.52mm)
+T4      32mil (0.8mm)                                             Round             64        PTH        13.32inch (338.33mm)
+T5      32mil (0.813mm)                                           Round             2         PTH        0.10inch (2.54mm)
+T6      35mil (0.9mm)                                             Round             17        PTH        5.00inch (126.90mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              220
+
+Total Processing Time (hh:mm:ss) : 00:00:00

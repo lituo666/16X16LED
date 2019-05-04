@@ -1,10 +1,10 @@
-C51 COMPILER V9.01   MAIN                                                                  11/10/2017 22:37:50 PAGE 1   
+C51 COMPILER V9.57.0.0   MAIN                                                              05/04/2019 20:26:54 PAGE 1   
 
 
-C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+C51 COMPILER V9.57.0.0, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\Objects\main.obj
-COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\main.lst) OBJECT(.\Object
-                    -s\main.obj)
+COMPILER INVOKED BY: G:\ruanjian\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\List
+                    -ings\main.lst) OBJECT(.\Objects\main.obj)
 
 line level    source
 
@@ -18,9 +18,9 @@ line level    source
    8          #include<intrins.h>
    9          #define uchar unsigned char 
   10          #define uint unsigned int   
-  11          sbit HC595_DS=P0^3;                                                                     //74HC595的数据
-  12          sbit HC595_SCLK=P0^1;                                                           //74HC595的时钟
-  13          sbit HC595_LCLK=P0^0;                                                           //74HC595的锁存
+  11          sbit HC595_DS=P1^5;                                                                     //74HC595的数据
+  12          sbit HC595_SCLK=P1^6;                                                           //74HC595的时钟
+  13          sbit HC595_LCLK=P1^7;                                                           //74HC595的锁存
   14          uchar code hanzi[10][32]=
   15          {
   16          //五角星
@@ -62,7 +62,7 @@ line level    source
   41          void Timer0_Init()                                                                      //定时器配置：16位定时器，1.25ms显示1列，帧率50帧。
   42          {
   43   1              TMOD&=0Xf0;
-C51 COMPILER V9.01   MAIN                                                                  11/10/2017 22:37:50 PAGE 2   
+C51 COMPILER V9.57.0.0   MAIN                                                              05/04/2019 20:26:54 PAGE 2   
 
   44   1              TMOD|=0X01;
   45   1              //TL0=0xfb;                                                                             //???????1.25ms,STC??1T???51????
@@ -126,7 +126,7 @@ line level    source
  103   1              Mould[7]=~LED2X64[i+97];                                                //i=0,把缓存的第97号字节发送到第四个模组的最左边的下8位。
  104   1              Mould[6]=~LED2X64[i+96];                                                //i=0,把缓存的第96号字节发送到第四个模组的最左边的上8位。
  105   1              Mould[5]=~LED2X64[i+65];                                                //i=0,把缓存的第65号字节发送到第三个模组的最左边的下8位。       
-C51 COMPILER V9.01   MAIN                                                                  11/10/2017 22:37:50 PAGE 3   
+C51 COMPILER V9.57.0.0   MAIN                                                              05/04/2019 20:26:54 PAGE 3   
 
  106   1              Mould[4]=~LED2X64[i+64];                                                //i=0,把缓存的第64号字节发送到第三个模组的最左边的上8位。
  107   1              Mould[3]=~LED2X64[i+33];                                                //i=0,把缓存的第33号字节发送到第二个模组的最左边的下8位。

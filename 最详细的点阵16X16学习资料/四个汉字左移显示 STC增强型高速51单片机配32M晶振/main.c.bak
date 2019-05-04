@@ -7,9 +7,9 @@
 #include<intrins.h>
 #define uchar unsigned char 
 #define uint unsigned int   
-sbit HC595_DS=P1^5;									//74HC595的数据
-sbit HC595_SCLK=P1^6;								//74HC595的时钟
-sbit HC595_LCLK=P1^7;								//74HC595的锁存
+sbit HC595_DS=P0^3;									//74HC595的数据
+sbit HC595_SCLK=P0^1;								//74HC595的时钟
+sbit HC595_LCLK=P0^0;								//74HC595的锁存
 uchar code hanzi[10][32]=
 {
 //五角星

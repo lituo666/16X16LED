@@ -3,8 +3,12 @@
 /PCB工程/Project Logs for 16X16点阵/
 /PCB工程/Project Outputs for 16X16点阵/
 /PCB工程/*.PrjPcbStructure
-/最详细的点阵16X16学习资料/四个汉字静态显示 传统低速单片机 配12M晶振/Objects/
-/最详细的点阵16X16学习资料/四个汉字左移显示 STC增强型高速51单片机配32M晶振/Objects/
+/最详细的点阵16X16学习资料/四个汉字静态显示 传统低速单片机 配12M晶振/Objects/*
+!/最详细的点阵16X16学习资料/四个汉字静态显示 传统低速单片机 配12M晶振/Objects/点阵.hex
+/最详细的点阵16X16学习资料/四个汉字静态显示 传统低速单片机 配12M晶振/Listings/
+/最详细的点阵16X16学习资料/四个汉字左移显示 STC增强型高速51单片机配32M晶振/Objects/*
+!/最详细的点阵16X16学习资料/四个汉字左移显示 STC增强型高速51单片机配32M晶振/Objects/点阵.hex
+/最详细的点阵16X16学习资料/四个汉字左移显示 STC增强型高速51单片机配32M晶振/Listings/
 /程序/STC8F2K08S2/Objects/*
 !/程序/STC8F2K08S2/Objects/16X16_STC8F.hex
 /程序/STC8F2K08S2/Listings/
